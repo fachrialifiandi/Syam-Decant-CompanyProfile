@@ -6,6 +6,15 @@ const ProductCard = ({ product }) => {
   const [selectedSize, setSelectedSize] = useState('2ml');
 
   const getPrice = (size) => {
+    if (size === '2ml') {
+      return new Intl.NumberFormat('id-ID', {
+        style: 'currency',
+        currency: 'IDR',
+        minimumFractionDigits: 0,
+        maximumFractionDigits: 0
+      }).format(20000);
+    }
+
     const ml = parseInt(size.replace(/\D/g, '')) || 0;
     
     if (product.pricePerMl && ml > 0) {
