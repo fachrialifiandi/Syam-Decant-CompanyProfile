@@ -24,7 +24,7 @@ export const products = [
     name: "Mykonos California Blue",
     category: "decant",
     sizes: ["2ml", "5ml", "10ml"],
-    pricePerMl: 10000,
+    pricePerMl: 8000,
     image: californiaBlue,
     isBestSeller: true
   },
@@ -33,7 +33,7 @@ export const products = [
     name: "Mykonos Glitch",
     category: "decant",
     sizes: ["2ml", "5ml", "10ml"],
-    pricePerMl: 10000,
+    pricePerMl: 8000,
     image: glitch,
     isBestSeller: false
   },
@@ -42,7 +42,7 @@ export const products = [
     name: "Mykonos Monaco Royale",
     category: "decant",
     sizes: ["2ml", "5ml", "10ml"],
-    pricePerMl: 10000,
+    pricePerMl: 8000,
     image: monacoRoyale,
     isBestSeller: false
   },
@@ -51,7 +51,7 @@ export const products = [
     name: "Mykonos Royal Ispahan",
     category: "decant",
     sizes: ["2ml", "5ml", "10ml"],
-    pricePerMl: 10000,
+    pricePerMl: 8000,
     image: royalIspahan,
     isBestSeller: true
   },
@@ -60,7 +60,7 @@ export const products = [
     name: "Mykonos Silent Whisper",
     category: "decant",
     sizes: ["2ml", "5ml", "10ml"],
-    pricePerMl: 10000,
+    pricePerMl: 8000,
     image: silentWhisper,
     isBestSeller: false
   },
@@ -69,7 +69,7 @@ export const products = [
     name: "Mykonos California OG",
     category: "decant",
     sizes: ["2ml", "5ml", "10ml"],
-    pricePerMl: 10000,
+    pricePerMl: 8000,
     image: californiaOg,
     isBestSeller: false
   },
@@ -78,7 +78,7 @@ export const products = [
     name: "Mykonos Conquer",
     category: "decant",
     sizes: ["2ml", "5ml", "10ml"],
-    pricePerMl: 10000,
+    pricePerMl: 8000,
     image: conquer,
     isBestSeller: false
   },
@@ -87,7 +87,7 @@ export const products = [
     name: "Mykonos Crimson",
     category: "decant",
     sizes: ["2ml", "5ml", "10ml"],
-    pricePerMl: 10000,
+    pricePerMl: 8000,
     image: crimson,
     isBestSeller: false
   },
@@ -96,7 +96,7 @@ export const products = [
     name: "Mykonos Dark Secret",
     category: "decant",
     sizes: ["2ml", "5ml", "10ml"],
-    pricePerMl: 10000,
+    pricePerMl: 8000,
     image: darkSecret,
     isBestSeller: false
   },
@@ -105,7 +105,7 @@ export const products = [
     name: "Mykonos Dreamscape",
     category: "decant",
     sizes: ["2ml", "5ml", "10ml"],
-    pricePerMl: 10000,
+    pricePerMl: 8000,
     image: dreamscape,
     isBestSeller: false
   },
@@ -123,7 +123,7 @@ export const products = [
     name: "Mykonos Luminos",
     category: "decant",
     sizes: ["2ml", "5ml", "10ml"],
-    pricePerMl: 10000,
+    pricePerMl: 8000,
     image: luminos,
     isBestSeller: false
   },
@@ -132,7 +132,7 @@ export const products = [
     name: "Mykonos Mayfair",
     category: "decant",
     sizes: ["2ml", "5ml", "10ml"],
-    pricePerMl: 10000,
+    pricePerMl: 8000,
     image: mayfair,
     isBestSeller: false
   },
@@ -150,7 +150,7 @@ export const products = [
     name: "Mykonos Penthouse",
     category: "decant",
     sizes: ["2ml", "5ml", "10ml"],
-    pricePerMl: 10000,
+    pricePerMl: 8000,
     image: penthouse,
     isBestSeller: false
   },
@@ -159,7 +159,7 @@ export const products = [
     name: "Mykonos Reflection Elixir",
     category: "decant",
     sizes: ["2ml", "5ml", "10ml"],
-    pricePerMl: 10000,
+    pricePerMl: 8000,
     image: reflectionElixir,
     isBestSeller: false
   },
@@ -168,7 +168,7 @@ export const products = [
     name: "Mykonos Satin Blanc",
     category: "decant",
     sizes: ["2ml", "5ml", "10ml"],
-    pricePerMl: 10000,
+    pricePerMl: 8000,
     image: satinBlanc,
     isBestSeller: false
   },
@@ -177,7 +177,7 @@ export const products = [
     name: "Mykonos Sorento",
     category: "decant",
     sizes: ["2ml", "5ml", "10ml"],
-    pricePerMl: 10000,
+    pricePerMl: 8000,
     image: sorento,
     isBestSeller: false
   },
@@ -186,7 +186,7 @@ export const products = [
     name: "Mykonos Utopia",
     category: "decant",
     sizes: ["2ml", "5ml", "10ml"],
-    pricePerMl: 10000,
+    pricePerMl: 8000,
     image: utopia,
     isBestSeller: false
   }
