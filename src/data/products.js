@@ -17,6 +17,7 @@ import satinBlanc from '../assets/products/mykonos-satinblanc.webp';
 import silentWhisper from '../assets/products/mykonos-silentwhisper.webp';
 import sorento from '../assets/products/mykonos-sorento.webp';
 import utopia from '../assets/products/mykonos-utopia.webp';
+import galatea from '../assets/products/velixir-galatea.webp';
 
 export const products = [
   {
@@ -188,6 +189,15 @@ export const products = [
     sizes: ["2ml", "5ml", "10ml"],
     pricePerMl: 8000,
     image: utopia,
+    isBestSeller: false
+  },
+  {
+    id: 20,
+    name: "Velixir Galatea",
+    category: "decant",
+    sizes: ["2ml", "5ml", "10ml"],
+    pricePerMl: 8000,
+    image: galatea,
     isBestSeller: false
   }
 ];
