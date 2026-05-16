@@ -52,7 +52,7 @@ const About = () => {
             </h2>
             <div className="space-y-4 text-dark-800/80 dark:text-light-200/80 leading-relaxed">
               <p>
-                Di SYAM, kami percaya bahwa kemewahan aroma seharusnya dapat diakses oleh siapa saja. Kami mengkurasi koleksi parfum terbaik dari seluruh dunia untuk membantu Anda menemukan jati diri melalui wewangian.
+                Di SYAM, kami percaya bahwa kemewahan aroma seharusnya dapat diakses oleh siapa saja. Kami mengkurasi koleksi parfum terbaik untuk membantu Anda menemukan jati diri melalui wewangian.
               </p>
               <p>
                 Melalui sistem decant, Anda dapat mencoba berbagai aroma eksklusif tanpa harus membeli botol penuh secara langsung. Kami menjamin keaslian 100% pada setiap tetes yang kami pindahkan ke wadah steril kami.

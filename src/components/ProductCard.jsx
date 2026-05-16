@@ -5,28 +5,17 @@ import { motion } from 'framer-motion';
 const ProductCard = ({ product }) => {
   const [selectedSize, setSelectedSize] = useState('2ml');
 
-  const getPrice = (size) => {
-    if (size === '2ml') {
-      return new Intl.NumberFormat('id-ID', {
-        style: 'currency',
-        currency: 'IDR',
-        minimumFractionDigits: 0,
-        maximumFractionDigits: 0
-      }).format(20000);
-    }
+  const fmt = (amount) => new Intl.NumberFormat('id-ID', {
+    style: 'currency',
+    currency: 'IDR',
+    minimumFractionDigits: 0,
+    maximumFractionDigits: 0
+  }).format(amount);
 
-    const ml = parseInt(size.replace(/\D/g, '')) || 0;
-    
-    if (product.pricePerMl && ml > 0) {
-      const calculatedPrice = ml * product.pricePerMl;
-      return new Intl.NumberFormat('id-ID', {
-        style: 'currency',
-        currency: 'IDR',
-        minimumFractionDigits: 0,
-        maximumFractionDigits: 0
-      }).format(calculatedPrice);
-    }
-    
+  const getPrice = (size) => {
+    if (size === '2ml') return fmt(20000);
+    if (size === '5ml') return fmt(product.specialPrice ? 50000 : 40000);
+    if (size === '10ml') return fmt(product.specialPrice ? 100000 : 80000);
     return product.price;
   };
   return (
@@ -57,7 +46,7 @@ const ProductCard = ({ product }) => {
             {product.category === 'decant' ? 'Decant' : 'Full Bottle'}
           </p>
           <h4 className="font-serif text-lg text-dark-900 dark:text-light-100 line-clamp-1">
-            {product.name}
+            {product.name.startsWith('Other ') ? product.name.replace('Other ', '') : product.name}
           </h4>
         </div>
 

@@ -6,14 +6,17 @@ import About from './components/About';
 import Education from './components/Education';
 import CTA from './components/CTA';
 import Footer from './components/Footer';
+import { useState } from 'react';
 
 function App() {
+  const [searchQuery, setSearchQuery] = useState('');
+
   return (
     <div className="min-h-screen">
-      <Navbar />
+      <Navbar searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
       <Hero />
       <Features />
-      <ProductGrid />
+      <ProductGrid searchQuery={searchQuery} />
       <About />
       <Education />
       <CTA />
